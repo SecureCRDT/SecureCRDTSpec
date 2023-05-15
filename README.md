@@ -7,8 +7,8 @@ In particular, it includes:
 * A library of secure CRDTs
 * A secure CRDT client interface that allows simulating the run of a distributed secure CRDT in two worlds:
 
-- In the ideal world, each replica is emulated by a single party that executes secure operations over plain-text values.
-- In the real world, each replica is emulated by a fixed set of 3 parties that execute secure operations among them (this mode is only for demonstration purposes, and offers no actual MPC security).
+	- In the ideal world, each replica is emulated by a single party that executes secure operations over plain-text values.
+	- In the real world, each replica is emulated by a fixed set of 3 parties that execute secure operations among them (this mode is only for demonstration purposes, and offers no actual MPC security).
 
 ## Instructions
 
