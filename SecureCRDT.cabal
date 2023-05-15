@@ -1,0 +1,49 @@
+Name:            SecCRDT
+Version:         0.0.1
+License:         BSD3
+Author:          Hugo Pacheco <hpacheco@fc.up.pt>
+Maintainer:      Hugo Pacheco <hpacheco@fc.up.pt>
+Synopsis:        Incremental stuff
+Description:     General-purpose Secure CRDTs using MPC
+	
+Homepage:        https://github.com/SecureCRDT/
+
+Category: Security
+
+extra-source-files: 
+
+Build-type: Simple
+Cabal-Version:  >= 1.4
+
+Library
+  GHC-Options:
+  Hs-Source-Dirs: .
+  Build-Depends:        base, containers, mtl, MissingH, random-shuffle, async
+  exposed-modules:
+    Control.Functor.Zip
+    Secure.CRDT
+    Secure.CRDT.Class
+    Secure.CRDT.Client
+    Secure.CRDT.IO
+    Secure.CRDT.MPC
+    Secure.CRDT.Utils
+    Secure.CRDT.World
+    Secure.CRDT.World.Ideal
+    Secure.CRDT.World.Real
+    Secure.CRDT.Examples
+    Secure.CRDT.Examples.BC
+    Secure.CRDT.Examples.GC1
+    Secure.CRDT.Examples.GC2
+    Secure.CRDT.Examples.GSet
+    Secure.CRDT.Examples.LWW
+    Secure.CRDT.Examples.MAX
+    Secure.CRDT.Examples.MVR
+    Secure.CRDT.Examples.OGSet
+    Secure.CRDT.Examples.PNC
+    Secure.CRDT.Examples.RGA
+    Secure.CRDT.Examples.SGSet
+
+  Other-modules:
+    
+
+  extensions: 
