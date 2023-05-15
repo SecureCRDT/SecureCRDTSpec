@@ -3,7 +3,7 @@ Version:         0.0.1
 License:         BSD3
 Author:          Hugo Pacheco <hpacheco@fc.up.pt>
 Maintainer:      Hugo Pacheco <hpacheco@fc.up.pt>
-Synopsis:        Incremental stuff
+Synopsis:        Secure CRDTs
 Description:     General-purpose Secure CRDTs using MPC
 	
 Homepage:        https://github.com/SecureCRDT/
