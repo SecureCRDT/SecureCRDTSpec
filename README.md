@@ -12,7 +12,7 @@ In particular, it includes:
 
 ## Instructions
 
-1. Inside the `SecCRDT` folder, load the package with cabal:
+1. Clone this repository. Inside the `SecureCRDTSpec` folder, use `cabal` to load the package with `ghci`:
 
 ```
 $ cabal repl
